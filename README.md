@@ -12,3 +12,4 @@ IEDriverServer.exe
 実行するにはpythonseleniumIEinstall.batを管理者権限で実行してください。
 
 pythonseleniumIEinstall.batでURLを用いたBasic認証を可能にするためにレジストリの変更をしているため、有効にするにはゲストOSの再起動をしてください。
+再起動後、updatecmd.batを実行してください
