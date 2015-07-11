@@ -1,4 +1,3 @@
-New-Item C:\Python27 -itemType Directory -Force
 $mypath =Split-Path ( & { $myInvocation.ScriptName } ) -parent;
 $usepath1=$mypath+"\\python27installer.msi";
 (new-object System.Net.WebClient).DownloadFile("https://www.python.org/ftp/python/2.7.10/python-2.7.10.msi", $usepath1);
