@@ -10,5 +10,4 @@ $path += ';' + 'C:\Python27;C:\Python27\Scripts';
 [Environment]::SetEnvironmentVariable('PATH', $path, 'Machine');
 $usepath1=$mypath+"\IEDriverServer.exe";
 Copy-Item $usepath1 C:\Python27 -Force
-$usepath1 = "start "+$mypath+"\\updatecmd.bat"
 cmd /c "shutdown -r -t 10"
