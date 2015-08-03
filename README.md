@@ -1,4 +1,5 @@
 # PythonSeleniumIEDriverSetup  
+This software is released under the MIT License, see LICENSE.  
 modernIE向けにpython2.7、selenium、IEDriverの自動セットアップをおこないます  
 
 必要なもの  
